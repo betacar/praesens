@@ -1,0 +1,24 @@
+{
+  "name": "praesens",
+  "version": "1.0.0",
+  "description": "Real time Instagram photo-slider",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:betacar/praesens.git"
+  },
+  "author": "betacar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betacar/praesens/issues"
+  },
+  "homepage": "https://github.com/betacar/praesens",
+  "dependencies": {
+    "co": "^4.0.0",
+    "koa-logger": "^1.2.2",
+    "koa.io": "0.0.2"
+  }
+}
