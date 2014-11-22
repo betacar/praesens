@@ -1,6 +1,7 @@
 {
   "name": "praesens",
   "version": "1.0.0",
+  "private": true,
   "description": "Real time Instagram photo-slider",
   "main": "app.js",
   "scripts": {
