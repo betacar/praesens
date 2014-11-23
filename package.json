@@ -4,14 +4,11 @@
   "private": true,
   "description": "Real time Instagram photo-slider",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:betacar/praesens.git"
   },
-  "author": "betacar",
+  "author": "Carlos Betancourt Carrero",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/betacar/praesens/issues"
@@ -20,6 +17,14 @@
   "dependencies": {
     "co": "^4.0.0",
     "koa-logger": "^1.2.2",
-    "koa.io": "0.0.2"
+    "koa.io": "0.0.2",
+    "instagram-node-lib": "~0.1.1"
+  },
+  "engines": {
+    "node": ">=0.11.14",
+    "npm": "2.0.0"
+  },
+  "scripts": {
+    "start": "node --harmony app.js"
   }
 }
