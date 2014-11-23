@@ -16,9 +16,10 @@
   "homepage": "https://github.com/betacar/praesens",
   "dependencies": {
     "co": "^4.0.0",
+    "instagram-node-lib": "~0.1.1",
     "koa-logger": "^1.2.2",
-    "koa.io": "0.0.2",
-    "instagram-node-lib": "~0.1.1"
+    "koa-route": "^2.2.0",
+    "koa.io": "0.0.2"
   },
   "engines": {
     "node": ">=0.11.14",
