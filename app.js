@@ -31,7 +31,7 @@ app.use(router.get('/callback', function *() {
 }));
 
 app.use(router.post('/callback', function *() {
-  console.log('\n%j', this.body);
+  console.log('\n%j', this.request);
 }));
 
 app.use(router.get('/', function *() {
