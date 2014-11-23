@@ -1,7 +1,7 @@
 {
-  "client_id": "YOUR_CLIENT_ID",
-  "client_secret": "YOUR_CLIENT_SECRET",
-  "callback_url": "http://localhost:8000/callback",
-  "redirect_url": "http://localhost:8000/",
+  "client_id": "a9c6531847a84df7b5892720dc7c4901",
+  "client_secret": "1ee4f735be264e478728ad0bf118ec7d",
+  "callback_url": "https://praesens.herokuapp.com/callback",
+  "redirect_url": "https://praesens.herokuapp.com/",
   "maxSockets": 10
 }
