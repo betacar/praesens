@@ -27,7 +27,7 @@ Instagram.subscriptions.subscribe({
 app.use(logger());
 
 app.use(router.get('/callback', function *() {
-  var handshake = Instagram.subscriptions.handshake(this.request, this.response);
+  Instagram.subscriptions.handshake(this.req, this.res);
 }));
 
 app.use(router.post('/callback', function *() {
