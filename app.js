@@ -34,6 +34,10 @@ app.use(router.post('/callback', function *() {
   console.log('\n%j', this.body);
 }));
 
+app.use(router.get('/', function *() {
+  this.status = 200;
+}));
+
 app.listen(PORT, function () {
   console.log('Server listening at port %d', PORT);
 });
