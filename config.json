@@ -1,0 +1,7 @@
+{
+  "client_id": "YOUR_CLIENT_ID",
+  "client_secret": "YOUR_CLIENT_SECRET",
+  "callback_url": "http://localhost:8000/callback",
+  "redirect_url": "http://localhost:8000/",
+  "maxSockets": 10
+}
