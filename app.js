@@ -6,13 +6,11 @@ var Instagram = require('instagram-node-lib');
 var config = require('./config.json');
 
 var app = koa();
-var PORT = process.env.PORT || 3700;
+var PORT = process.env.PORT || 8000;
 
 // Instagram configuration
 for (key in config) {
-  var value = config[key];
-  console.log('Configuring Instagram with %s: %s', key, value);
-  Instagram.set(key, value);
+  Instagram.set(key, config[key]);
 }
 
 Instagram.subscriptions.subscribe({
